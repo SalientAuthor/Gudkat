@@ -1,0 +1,104 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #3a2e26;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .bg-chocolate {
+            background-color: #3a2e26; /* Dark chocolate */
+        }
+        
+        .text-gold {
+            color: #d4af37;
+        }
+        
+        .border-gold {
+            border-color: #d4af37;
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .choco-truffle {
+            background: radial-gradient(circle at 30% 30%, #6b4f36, #3a2e26 70%);
+        }
+        
+        .choco-melt {
+            background: radial-gradient(ellipse at bottom, #6b4f36, #3a2e26);
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #d4af37;
+            border-radius: 4px;
+        }
+        
+        .nav-item::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #d4af37;
+            transition: width .3s;
+        }
+        
+        .nav-item:hover::after {
+            width: 100%;
+        }
+        
+        /* Chocolate drip animation */
+        @keyframes drip {
+            0% { transform: translateY(-100%); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        
+        .drip {
+            animation: drip 0.8s ease-out;
+        }
+        
+        /* Chocolate wave animation */
+        @keyframes wave {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
+        
+        .hi-wave:hover {
+            animation: wave 0.8s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        .hero-section {
+            height: 100vh;
+            background: url('Resources/Assets/Gudkat_Landing.png') center/cover no-repeat;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background-color: rgba(58, 46, 38, 0.7);
+        }
+    
