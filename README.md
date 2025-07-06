@@ -20,7 +20,7 @@ This project is a simple yet elegant website built using **HTML**, **CSS**, and 
 - 📸 Product highlights with call-to-action buttons  
 
 ## 📁 Project Structure
-
+```
 guddkat/
 ├── index.html
 ├── style.css
@@ -28,7 +28,7 @@ guddkat/
 ├── assets/
 │ ├── images/
 └── README.md
-
+```
 🙌 Support & Feedback
 Have feedback or want to collaborate?
 Feel free to open issues or pull requests!
