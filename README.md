@@ -1,4 +1,4 @@
-# 🍫 Guddkat - Jaggery Chocolates Website
+# 🍫 Gudkat - Jaggery Chocolates Website
 
 Welcome to **Gudkat** – a sweet journey into the world of **jaggery-based chocolates**!  
 This project is a simple yet elegant website built using **HTML**, **CSS**, and **JavaScript**, crafted to promote the natural goodness of our artisanal chocolates made with love and health in mind.
@@ -21,7 +21,7 @@ This project is a simple yet elegant website built using **HTML**, **CSS**, and 
 
 ## 📁 Project Structure
 ```
-guddkat/
+gudkat/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -35,4 +35,3 @@ Feel free to open issues or pull requests!
 
 💖 Credits
 Built with 💛 by [Akshay Vishwakarma]
-Inspired by nature, wellness, and love for traditional sweets.
